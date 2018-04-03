@@ -13,7 +13,7 @@
     
     
     
-    <title>TypeScript 1st | ionic.im | i-o-nic-i-m</title>
+    <title>TypeScript 1st | ionic.im</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
@@ -28,7 +28,7 @@
 <meta property="og:site_name" content="ionic.im">
 <meta property="og:description" content="基础类型">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-04-03T14:33:49.934Z">
+<meta property="og:updated_time" content="2018-04-03T14:36:48.065Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TypeScript 1st">
 <meta name="twitter:description" content="基础类型">
@@ -197,7 +197,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">let sth1 : null = null;</span><br><span class="line">let sth2 : undefined = undefined;</span><br><span class="line">let sth3 : string = null;           //error</span><br><span class="line">let sth4 : string = undefined;      //error</span><br><span class="line">let sht5 : void = null;</span><br><span class="line">let sht6 : void = undefined;</span><br></pre></td></tr></table></figure>
 <h2 id="never"><a href="#never" class="headerlink" title="never"></a>never</h2><p>表示永不存在的值的类型，比如总会抛出异常，或根本不会有返回值，或箭头函数表达式的返回值类型。<br>变量也可以是never类型，当它被永不为真的类型保护所约束。<br>是所有类型的子类，也可以赋值给任何类型。除了本身没有任何类型可以赋值给never，即使any也不可以。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">let sth1 : never = never;</span><br><span class="line">let sth2 : any = &quot;abc&quot;;</span><br><span class="line">let sth3 : never = sth2;        //error</span><br><span class="line">function error(message: string): never&#123;</span><br><span class="line">    throw new Error(message);</span><br><span class="line">&#125;</span><br><span class="line">function fail(): never&#123;</span><br><span class="line">    return error(&quot;test error&quot;);</span><br><span class="line">&#125;</span><br><span class="line">function loop4ever(): never&#123;</span><br><span class="line">    while(true)&#123;</span><br><span class="line">        do sth...;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="类型断言"><a href="#类型断言" class="headerlink" title="类型断言"></a>类型断言</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">let sth1 : any = &quot;abc&quot;;</span><br><span class="line">let sth2 : number = (&lt;string&gt;sth1).length;      //ok but not good</span><br><span class="line">let sth3 : number = (sth1 as string).length;    //ok and better 2</span><br></pre></td></tr></table></figure>
+<h1 id="类型断言"><a href="#类型断言" class="headerlink" title="类型断言"></a>类型断言</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">let sth1 : any = &quot;abc&quot;;</span><br><span class="line">let sth2 : number = (&lt;string&gt;sth1).length;      //ok but not good</span><br><span class="line">let sth3 : number = (sth1 as string).length;    //ok and better 3</span><br></pre></td></tr></table></figure>
 
         </div>
 
