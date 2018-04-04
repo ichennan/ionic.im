@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    <title>Angular 1st | ionic.im</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="Angular,Basic">
+    <meta name="description" content="基础命令安装npm install -g @angular/cli 创建新应用ng new tour-of-hero 启动服务器cd tour-of-herong serve -o 项目结构..../src/app        -- app.component.ts        -- app.component.html        -- app.component.css        -">
+<meta name="keywords" content="Angular,Basic">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Angular 1st">
+<meta property="og:url" content="http://ionic.im/Angular-1st/index.html">
+<meta property="og:site_name" content="ionic.im">
+<meta property="og:description" content="基础命令安装npm install -g @angular/cli 创建新应用ng new tour-of-hero 启动服务器cd tour-of-herong serve -o 项目结构..../src/app        -- app.component.ts        -- app.component.html        -- app.component.css        -">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-04-04T10:51:40.839Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Angular 1st">
+<meta name="twitter:description" content="基础命令安装npm install -g @angular/cli 创建新应用ng new tour-of-hero 启动服务器cd tour-of-herong serve -o 项目结构..../src/app        -- app.component.ts        -- app.component.html        -- app.component.css        -">
+    
+        <link rel="alternate" type="application/atom+xml" title="ionic.im" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/avatar.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">nan</h5>
+          <a href="mailto:ichennan@sina.com" title="ichennan@sina.com" class="mail">ichennan@sina.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                标签
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                分类
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-link"></i>
+                测试
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">Angular 1st</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="Search">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">Angular 1st</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2018-04-04T10:01:41.000Z" itemprop="datePublished" class="page-time">
+  2018-04-04
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Angular/">Angular</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#基础命令"><span class="post-toc-number">1.</span> <span class="post-toc-text">基础命令</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">安装</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#创建新应用"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">创建新应用</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#启动服务器"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">启动服务器</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#项目结构"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">项目结构</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#更改title"><span class="post-toc-number">1.4.1.</span> <span class="post-toc-text">更改title</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#组件"><span class="post-toc-number">2.</span> <span class="post-toc-text">组件</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#创建新组件"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">创建新组件</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#组件内容"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">组件内容</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#显示"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">显示</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#类"><span class="post-toc-number">3.</span> <span class="post-toc-text">类</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#创建类"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">创建类</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#引入类"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">引入类</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#显示类"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">显示类</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#双向绑定"><span class="post-toc-number">4.</span> <span class="post-toc-text">双向绑定</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#添加"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">添加</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#实现"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">实现</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#循环，事件，为空及css绑定"><span class="post-toc-number">5.</span> <span class="post-toc-text">循环，事件，为空及css绑定</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#主从组件"><span class="post-toc-number">6.</span> <span class="post-toc-text">主从组件</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#带输入参数"><span class="post-toc-number">6.1.</span> <span class="post-toc-text">带输入参数</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#服务"><span class="post-toc-number">7.</span> <span class="post-toc-text">服务</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#创建"><span class="post-toc-number">7.1.</span> <span class="post-toc-text">创建</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#服务内容"><span class="post-toc-number">7.2.</span> <span class="post-toc-text">服务内容</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#注入服务"><span class="post-toc-number">7.3.</span> <span class="post-toc-text">注入服务</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#可观察的数据"><span class="post-toc-number">8.</span> <span class="post-toc-text">可观察的数据</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#申明"><span class="post-toc-number">8.1.</span> <span class="post-toc-text">申明</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#使用"><span class="post-toc-number">8.2.</span> <span class="post-toc-text">使用</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#路由"><span class="post-toc-number">9.</span> <span class="post-toc-text">路由</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#创建-1"><span class="post-toc-number">9.1.</span> <span class="post-toc-text">创建</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#路由内容"><span class="post-toc-number">9.2.</span> <span class="post-toc-text">路由内容</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#调用"><span class="post-toc-number">9.3.</span> <span class="post-toc-text">调用</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#链接"><span class="post-toc-number">9.4.</span> <span class="post-toc-text">链接</span></a></li></ol></li></ol>
+        </nav>
+    </aside>
+
+
+<article id="post-Angular-1st"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">Angular 1st</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2018-04-04 18:01:41" datetime="2018-04-04T10:01:41.000Z"  itemprop="datePublished">2018-04-04</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Angular/">Angular</a></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h1 id="基础命令"><a href="#基础命令" class="headerlink" title="基础命令"></a>基础命令</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">npm install -g @angular/cli</span><br></pre></td></tr></table></figure>
+<h2 id="创建新应用"><a href="#创建新应用" class="headerlink" title="创建新应用"></a>创建新应用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">ng new tour-of-hero</span><br></pre></td></tr></table></figure>
+<h2 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">cd tour-of-hero</span><br><span class="line">ng serve -o</span><br></pre></td></tr></table></figure>
+<h2 id="项目结构"><a href="#项目结构" class="headerlink" title="项目结构"></a>项目结构</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">..../src/app</span><br><span class="line">        -- app.component.ts</span><br><span class="line">        -- app.component.html</span><br><span class="line">        -- app.component.css</span><br><span class="line">        -- app.module.ts</span><br></pre></td></tr></table></figure>
+<h3 id="更改title"><a href="#更改title" class="headerlink" title="更改title"></a>更改title</h3><p>app.component.ts</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">title = &apos;Tour of Heroes&apos;;</span><br></pre></td></tr></table></figure>
+<p>app.component.html  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">&lt;h1&gt;&#123;&#123;title&#125;&#125;&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="组件"><a href="#组件" class="headerlink" title="组件"></a>组件</h1><h2 id="创建新组件"><a href="#创建新组件" class="headerlink" title="创建新组件"></a>创建新组件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">ng generate component heros</span><br></pre></td></tr></table></figure>
+<h2 id="组件内容"><a href="#组件内容" class="headerlink" title="组件内容"></a>组件内容</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">@Component(&#123;</span><br><span class="line">  selector: &apos;app-heroes&apos;,</span><br><span class="line">  templateUrl: &apos;./heroes.component.html&apos;,</span><br><span class="line">  styleUrls: [&apos;./heroes.component.css&apos;]</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<h2 id="显示"><a href="#显示" class="headerlink" title="显示"></a>显示</h2><p>app.component.html</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">&lt;h1&gt;&#123;&#123;title&#125;&#125;&lt;/h1&gt;</span><br><span class="line">&lt;app-heroes&gt;&lt;/app-heroes&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="类"><a href="#类" class="headerlink" title="类"></a>类</h1><h2 id="创建类"><a href="#创建类" class="headerlink" title="创建类"></a>创建类</h2><p>hero.ts</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">export class Hero &#123;</span><br><span class="line">  id: number;</span><br><span class="line">  name: string;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="引入类"><a href="#引入类" class="headerlink" title="引入类"></a>引入类</h2><p>heroes.component.ts</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">import &#123; Hero &#125; from &apos;../hero&apos;;</span><br><span class="line"></span><br><span class="line">export class HeroesComponent implements OnInit &#123;</span><br><span class="line">  hero: Hero = &#123;</span><br><span class="line">    id: 1,</span><br><span class="line">    name: &apos;Windstorm&apos;</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  constructor() &#123; &#125;</span><br><span class="line"></span><br><span class="line">  ngOnInit() &#123;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="显示类"><a href="#显示类" class="headerlink" title="显示类"></a>显示类</h2><p>heroes.component.html</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">&lt;h2&gt;&#123;&#123; hero.name | uppercase &#125;&#125; Details&lt;/h2&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="双向绑定"><a href="#双向绑定" class="headerlink" title="双向绑定"></a>双向绑定</h1><h2 id="添加"><a href="#添加" class="headerlink" title="添加"></a>添加</h2><p>ngModel属于可选模块FormsModule，需要添加此模块</p>
+<p>app.module.ts</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">import &#123; FormsModule &#125; from &apos;@angular/forms&apos;;</span><br><span class="line"></span><br><span class="line">imports: [</span><br><span class="line">  BrowserModule,</span><br><span class="line">  FormsModule</span><br><span class="line">],</span><br></pre></td></tr></table></figure>
+<h2 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">&lt;input [(ngModel)]=&quot;hero.name&quot; placeholder=&quot;name&quot;&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="循环，事件，为空及css绑定"><a href="#循环，事件，为空及css绑定" class="headerlink" title="循环，事件，为空及css绑定"></a>循环，事件，为空及css绑定</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">&lt;div *ngIf=&quot;heroes&quot;&gt;</span><br><span class="line">  &lt;li *ngFor=&quot;let hero of heroes&quot;</span><br><span class="line">    [class.selected]=&quot;hero === selectedHero&quot;</span><br><span class="line">    (click)=&quot;onSelect(hero)&quot;&gt;</span><br><span class="line">    &lt;span class=&quot;badge&quot;&gt;&#123;&#123;hero.id&#125;&#125;&lt;/span&gt; &#123;&#123;hero.name&#125;&#125;</span><br><span class="line">  &lt;/li&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="主从组件"><a href="#主从组件" class="headerlink" title="主从组件"></a>主从组件</h1><h2 id="带输入参数"><a href="#带输入参数" class="headerlink" title="带输入参数"></a>带输入参数</h2><p>hero-detail.component.ts</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">import &#123; Component, OnInit, Input &#125; from &apos;@angular/core&apos;;</span><br><span class="line"></span><br><span class="line">@Input() hero: Hero;</span><br></pre></td></tr></table></figure>
+<p>单向绑定<br>hero.component.ts</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">&lt;app-hero-detail [hero]=&quot;selectedHero&quot;&gt;&lt;/app-hero-detail&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="服务"><a href="#服务" class="headerlink" title="服务"></a>服务</h1><h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">ng generate service hero --module=app</span><br></pre></td></tr></table></figure>
+<p>如果不带参数，则需要自己添加</p>
+<p>app.module.ts</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">providers: [</span><br><span class="line">    HeroService,</span><br><span class="line">/* . . . */</span><br><span class="line">  ],</span><br></pre></td></tr></table></figure>
+<h2 id="服务内容"><a href="#服务内容" class="headerlink" title="服务内容"></a>服务内容</h2><p>hero.service.ts</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">import &#123; Injectable &#125; from &apos;@angular/core&apos;;</span><br><span class="line"></span><br><span class="line">@Injectable()</span><br><span class="line">export class HeroService &#123;</span><br><span class="line"></span><br><span class="line">  constructor() &#123; &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="注入服务"><a href="#注入服务" class="headerlink" title="注入服务"></a>注入服务</h2><p>heroes.component.ts</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">import &#123; HeroService &#125; from &apos;../hero.service&apos;;</span><br><span class="line">constructor(private heroService: HeroService) &#123; &#125;</span><br></pre></td></tr></table></figure>
+<h1 id="可观察的数据"><a href="#可观察的数据" class="headerlink" title="可观察的数据"></a>可观察的数据</h1><h2 id="申明"><a href="#申明" class="headerlink" title="申明"></a>申明</h2><p>hero.service.ts</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">import &#123; Observable &#125; from &apos;rxjs/Observable&apos;;</span><br><span class="line">import &#123; of &#125; from &apos;rxjs/observable/of&apos;;</span><br><span class="line">getHeroes(): Observable&lt;Hero[]&gt; &#123;</span><br><span class="line">  return of(HEROES);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>heroes.component.ts</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">getHeroes(): void &#123;</span><br><span class="line">  this.heroService.getHeroes()</span><br><span class="line">      .subscribe(heroes =&gt; this.heroes = heroes);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="路由"><a href="#路由" class="headerlink" title="路由"></a>路由</h1><h2 id="创建-1"><a href="#创建-1" class="headerlink" title="创建"></a>创建</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">ng generate module app-routing --flat --module=app</span><br></pre></td></tr></table></figure>
+<p>–flat 把文件放进src/app，不需要单独目录<br>–module=app 自动注册到AppModule的imports中</p>
+<h2 id="路由内容"><a href="#路由内容" class="headerlink" title="路由内容"></a>路由内容</h2><p>app-routing.module.ts  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">import &#123; NgModule &#125; from &apos;@angular/core&apos;;</span><br><span class="line">import &#123; RouterModule, Routes&#125; from &apos;@angular/router&apos;;</span><br><span class="line">import &#123; HeroesComponent&#125; from &apos;./heroes/heroes.component&apos;;</span><br><span class="line"></span><br><span class="line">const routes: Routes = [</span><br><span class="line">  &#123; path: &apos;heroes&apos;, component: HeroesComponent&#125;</span><br><span class="line">];</span><br><span class="line"></span><br><span class="line">@NgModule(&#123;</span><br><span class="line">  imports: [RouterModule.forRoot(routes)],</span><br><span class="line">  exports: [RouterModule]</span><br><span class="line">&#125;)</span><br><span class="line">export class AppRoutingModule &#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="调用"><a href="#调用" class="headerlink" title="调用"></a>调用</h2><p>app.component.html  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">&lt;router-outlet&gt;&lt;/router-outlet&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td><td class="code"><pre><span class="line">&lt;nav&gt;</span><br><span class="line">  &lt;a routerLink=&quot;/heroes&quot;&gt;Heroes&lt;/a&gt;</span><br><span class="line">&lt;/nav&gt;</span><br></pre></td></tr></table></figure>
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <footer>
+        <a href="http://ionic.im">
+            <img src="/img/avatar.jpg" alt="nan">
+            nan
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Angular/">Angular</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Basic/">Basic</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://ionic.im/Angular-1st/&title=《Angular 1st》 — ionic.im&pic=http://ionic.im/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <!--<li>-->
+        <!--<a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://ionic.im/Angular-1st/&title=《Angular 1st》 — ionic.im&source=ionic learning" data-title=" QQ">-->
+          <!--<i class="icon icon-qq"></i>-->
+        <!--</a>-->
+      <!--</li>-->
+      <!--<li>-->
+        <!--<a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://ionic.im/Angular-1st/" data-title=" Facebook">-->
+          <!--<i class="icon icon-facebook"></i>-->
+        <!--</a>-->
+      <!--</li>-->
+      <!--<li>-->
+        <!--<a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Angular 1st》 — ionic.im&url=http://ionic.im/Angular-1st/&via=http://ionic.im" data-title=" Twitter">-->
+          <!--<i class="icon icon-twitter"></i>-->
+        <!--</a>-->
+      <!--</li>-->
+      <!--<li>-->
+        <!--<a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://ionic.im/Angular-1st/" data-title=" Google+">-->
+          <!--<i class="icon icon-google-plus"></i>-->
+        <!--</a>-->
+      <!--</li>-->
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/TypeScript-1st/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">TypeScript 1st</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        打赏
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/img/wechat.jpg" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/img/wechat.jpg" data-alipay="/img/alipay.jpg">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechat">微信</span>
+                <span class="reward-toggle-label"></span>
+                <span class="reward-toggle-item alipay">支付宝</span>
+            </div>
+        </label>
+        
+    </div>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <!-- comment by chennan -->
+    <div class="top">
+        <div></div>
+        <!-- 
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        false<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        false<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>This blog is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</span>
+        </p> -->
+    </div>
+    <div class="bottom">
+        <p><span>nan &copy; 2018</span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://ionic.im/Angular-1st/&title=《Angular 1st》 — ionic.im&pic=http://ionic.im/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <!--<li>-->
+        <!--<a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://ionic.im/Angular-1st/&title=《Angular 1st》 — ionic.im&source=ionic learning" data-title=" QQ">-->
+          <!--<i class="icon icon-qq"></i>-->
+        <!--</a>-->
+      <!--</li>-->
+      <!--<li>-->
+        <!--<a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://ionic.im/Angular-1st/" data-title=" Facebook">-->
+          <!--<i class="icon icon-facebook"></i>-->
+        <!--</a>-->
+      <!--</li>-->
+      <!--<li>-->
+        <!--<a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Angular 1st》 — ionic.im&url=http://ionic.im/Angular-1st/&via=http://ionic.im" data-title=" Twitter">-->
+          <!--<i class="icon icon-twitter"></i>-->
+        <!--</a>-->
+      <!--</li>-->
+      <!--<li>-->
+        <!--<a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://ionic.im/Angular-1st/" data-title=" Google+">-->
+          <!--<i class="icon icon-google-plus"></i>-->
+        <!--</a>-->
+      <!--</li>-->
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAAByElEQVR42u3ay67DIAxF0fz/T+dOK12R7mODlUqbUVTxWHRgGcN14XZ/tNUvvOdq7LYmV67cNvd+bJ99yCiy1f9zEoNcuXLnuatl+JLPY/n3l/nlypX7ei6ZgSc9cuXK/UUu30ya9MiVK/edXHL4qfVMiyzbzmpy5cptcHmV8tz3kfquXLlyS9y71NLt7Vpdrly5M9w06KTFkWd0sWgiV67cw9wUQTbT38ByTrly5Y5wO4WM9CEFiakokZIrV+4Ilxcxd12ddoovcuXKPc1NA1Ba4ODhEq0oV67ccS5/eFF7SMGfcC37y5Urd4RbuwjpTJ2GvDgzkitXbptbC1Jk92kBBQVTuXLljnDJM4j0ANPBob9Drly5h7m1cMOTEp4GoXKMXLlyR7jpfQsJeemjz7hEK1eu3MNcfnVKAlY6lidM6JJVrly5m7i1BIUHuKvUvswmV67cw9w7bJ3iyLZcTK5cuYe5teDSeajBx7bQcuXKbXM7xY5dl6xBiVauXLmD3OABRHjtmqYvcuXK/S1uLZyREBmkVnLlyn0ZlwSaNHGJUyW5cuUOcvnhJy18pMebzWc1uXLllri8YFpLSp63yi9p5MqVO8L9A2z1dp38RhO+AAAAAElFTkSuQmCC" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+<script>
+(function() {
+    var OriginTitile = document.title, titleTime;
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = '闪了！';
+            clearTimeout(titleTime);
+        } else {
+            document.title = '好了!';
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile;
+            },2000);
+        }
+    });
+})();
+</script>
+
+
+
+</body>
+</html>
